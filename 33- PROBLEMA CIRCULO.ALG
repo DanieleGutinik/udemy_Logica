@@ -1,22 +1,22 @@
 Algoritmo "Problema Circulo"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Udemy
-// Descrição   : Calule o valor de "r" de circulo
+// Descrição   : Calule o valor do Raio "r" de circulo usando o "PI"
 // Autor(a)    : Daniele Gutinik
 // Data atual  : 28/04/2022
 Var
 // Seção de Declarações das variáveis 
-circulo, area : real
+r, area : real
 
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
    escreval("Digite o valor do raio do circulo: ")
-   leia(circulo)
-   
-   area <- 3.14159 * (circulo * circulo)
+   leia(r)
 
-   escreva("Area = ",area:4:3)
+   area <- 3.14159 * (r * r)
+
+   escreva("Area = ",area:5:3)
 
 Fimalgoritmo
